@@ -1,0 +1,9 @@
+{
+    "name": "pflynn.jump-to-matching-brace",
+    "title": "Jump to Matching Brace",
+    "homepage": "https://github.com/peterflynn/brackets-jump-to-matching",
+    "author": "Peter Flynn",
+    "version": "1.0.0",
+    "engines": { "brackets": ">=0.25" },
+    "description": "Jump cursor from one brace/bracket/parenthesis to its matching counterpart by tapping Ctrl/\u2318-Shift-[."
+}
