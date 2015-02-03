@@ -60,5 +60,13 @@ define(function (require, exports, module) {
     CommandManager.register("Go to Matching Brace", COMMAND_ID, gotoMatching);
     
     var menu = Menus.getMenu(Menus.AppMenuBar.NAVIGATE_MENU);
-    menu.addMenuItem(COMMAND_ID, "Ctrl-Shift-[", Menus.LAST_IN_SECTION, Menus.MenuSection.NAVIGATE_GOTO_COMMANDS);
+    menu.addMenuItem(COMMAND_ID, [
+        {
+            "key": "Ctrl-Shift-["
+        },
+        {
+            "key": "Ctrl-Shift-[",
+            "platform": "mac"
+        }
+    ], Menus.LAST_IN_SECTION, Menus.MenuSection.NAVIGATE_GOTO_COMMANDS);
 });
