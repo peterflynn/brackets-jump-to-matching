@@ -1,8 +1,8 @@
 "Jump to Matching Brace" extension for Brackets
 ===============================================
-Jump cursor from one brace/bracket/parenthesis to its matching counterpart with a quick keyboard shortcut: Ctrl-Shift-[ (Win) or ⌘-Shift-[ (Mac).
+Jump cursor from one brace/bracket/parenthesis to its matching counterpart with a quick keyboard shortcut: <kbd>Ctrl-Shift-[</kbd> (including Mac - does not use ⌘).
 
-* If cursor is already on a brace/bracket/paren, it will move to the matching counterpart
+* If cursor is already on a brace/bracket/paren, it will move to the opposite matching counterpart
 * If cursor is not on any brace/brackets/paren, it moves to the opening brace/brackets/paren for the current scope that it is inside
 
 
